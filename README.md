@@ -1,4 +1,4 @@
-# Regression-github
+# Regression-
 
 # Logistic Regression :
 
@@ -138,4 +138,108 @@ Model evaluation using ROC-AUC
 Difference between bias and variance
 
 Visual interpretation of decision boundaries
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+K-Nearest Neighbors (KNN)
+
+This project implements a K-Nearest Neighbors (KNN) classification algorithm using Python and scikit-learn.  
+The goal is to predict whether a user will purchase a product based on their Age and Estimated Salary.
+
+## Dataset Information
+
+
+Dataset Name:
+- Social_Network_Ads.csv
+ 
+- Features Used:
+  
+- Age
+  
+- Estimated Salary
+  
+- Target Variable:
+  
+- Purchased (0 = No, 1 = Yes)
+
+## Libraries Used
+
+- NumPy
+  
+- Pandas
+   
+- Matplotlib
+  
+- scikit-learn
+
+##  Machine Learning Workflow
+
+1. Imported required libraries  
+
+2. Loaded the dataset  
+
+3. Selected input features and target variable  
+
+4. Split data into training and test sets (80%–20%)  
+
+5. Applied Feature Scaling using `StandardScaler`  
+
+6. Trained KNN Classifier on training data  
+
+7. Predicted results on test data  
+
+8. Evaluated the model using:
+    - Confusion Matrix  
+
+    - Accuracy Score  
+
+    - Classification Report  
+
+10. Visualized decision boundaries for:
+    - Training set  
+
+    - Test set
+   
+      
+## Model Configuration
+
+- Algorithm: K-Nearest Neighbors (KNN)
+
+- Number of Neighbors (k): 4
+
+- Distance Metric: Manhattan Distance (`p = 1`)
+
+- Test Size: 20%
+
+- Random State: 0
+
+## Model Evaluation
+- Confusion Matrix to analyze prediction results  
+
+- Accuracy Score to measure overall performance  
+
+- Classification Report for precision, recall, and F1-score
+
+
+## Visualization
+- Decision boundary plots for training and test datasets  
+
+- Scatter plots showing class separation based on Age and Salary
+
+
+## Key Learnings
+
+Importance of feature scaling in distance-based algorithms
+
+Working of KNN classification
+
+Effect of k value on model performance
+
+Visualization of decision boundaries
+
+Understanding bias and variance
+
+
+
+
 
