@@ -384,13 +384,13 @@ cm = confusion_matrix(y_test, y_pred)
 
 Displays:
 
-True Positives
+  True Positive
 
-True Negatives
+  True Negative
 
-False Positives
+  False Positive
 
-False Negatives
+  False Negative
 
 Helps analyze model errors
 
