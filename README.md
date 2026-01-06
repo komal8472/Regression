@@ -329,8 +329,11 @@ random_state=0 ensures reproducible results
 ## Feature Scaling
 
 from sklearn.preprocessing import StandardScaler
+
 sc = StandardScaler()
+
 X_train = sc.fit_transform(X_train)
+
 X_test = sc.transform(X_test)
 
 - -
@@ -346,7 +349,9 @@ Scaling prevents features like salary from dominating age
 ## Training the K-Nearest Neighbors Model
 
 from sklearn.neighbors import KNeighborsClassifier
+
 classifier = KNeighborsClassifier(n_neighbors=4, p=1)
+
 classifier.fit(X_train, y_train)
 
 - -
