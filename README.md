@@ -468,4 +468,6 @@ Confirms whether learned patterns hold on test data
 
 ## Summary
 
-This project demonstrates a complete KNN classification workflow including data preprocessing, feature scaling, model training, evaluation, bias-variance analysis, and visualization. Each step is designed to ensure accurate predictions and proper model generalization.
+This project demonstrates a complete KNN classification workflow including data preprocessing, feature scaling, model training, evaluation, bias-variance analysis, and visualization.
+
+Each step is designed to ensure accurate predictions and proper model generalization.
